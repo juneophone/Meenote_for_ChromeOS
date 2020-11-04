@@ -29,7 +29,10 @@ const FILES_TO_CACHE = [
   '/scripts/app.js',
   '/scripts/install.js',
   '/scripts/luxon-1.11.4.js',
-  '/styles/inline.css',  
+  '/styles/inline.css',
+  '/images/refresh.svg',
+  '/images/install.svg',
+  '/images/add.svg',
 ];
 
 self.addEventListener('install', (evt) => {
